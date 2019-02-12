@@ -1,0 +1,26 @@
+/*Adam Patrick*/
+
+/**{
+    border: 1px solid red;
+}*/
+
+center{
+
+}
+
+
+
+form{
+    text-align: left;
+    padding-left: 27%; 
+}
+
+input{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#signin{
+   width: 30%;
+}
