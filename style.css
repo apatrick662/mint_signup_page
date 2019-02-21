@@ -63,7 +63,12 @@ h1{
 
 .signin img{
     width: 18px;
-    margin: 3px;
+    margin-right: 5px;
+}
+
+.login {
+    display: inline-block;
+    font-size: 12px;
 }
 
 .header{
@@ -81,12 +86,12 @@ h1{
     height: 35px;
     bottom: 7px;
     margin-left: 10px;
-	margin-right: 5px;
+    margin-right: 5px;
 }
 
 .header img{
     width: 18px;
-    margin: 3px;
+    margin-right: 4px;
 }
 
 .header p{
