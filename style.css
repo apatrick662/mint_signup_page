@@ -1,38 +1,112 @@
 /*Adam Patrick*/
 
-/**{
+/* *{
     border: 1px solid red;
-}*/
+} */
 
 html{
     font-size: 16px;
-}
-
-center{
-
+    background-color: #eceef1;
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 form{
     text-align: left;
     padding-left: 27%; 
+    margin-left: -80px;
 }
 
 input{
-    padding: 5px;
+    padding: 9px;
     padding-left: 10px;
     padding-right: 10px;
+    width: 250px;
+}
+
+li {
+	display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    margin: 0;
+    color: #4c4c4c;
 }
 
 .signin {
-	background-color: gainsboro;
-	border: 11px solid gray;
+	background-color: white;
+	border: 1px solid #4c4c4c;
 	width: 380px;
-	height: 575px;
+	height: 600px;
 	margin: 0 auto;
 	padding: 30px;
-	box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.signin button{
+    background-color: #0077C5;
+    color: white;
+    border: 1px black;
+    position: relative;
+    border-radius: 4px;
+    width: 312px;
+    height: 44px;
+    bottom: 7px;
+    margin-right: 5px;
+    top: 10px;
+    font-size: 18px;
+}
+
+.signin img{
+    width: 18px;
+    margin: 3px;
+}
+
+.header{
+    width: 100%;
+    text-align: right;
+}
+
+.header button{
+    background-color: #0077C5;
+    color: white;
+    border: 1px black;
+    position: relative;
+    border-radius: 4px;
+    width: 102px;
+    height: 35px;
+    bottom: 7px;
+    margin-left: 10px;
+	margin-right: 5px;
+}
+
+.header img{
+    width: 18px;
+    margin: 3px;
+}
+
+.header p{
+    display: inline-block;
+	margin: 10px 0 5px 0;
+	padding: 0;
+	color: #505050;
+}
+
+.footer{
+    font-size: 12px;
+    margin: 0 0 10px 0;
+    color: #8d9096
+}
+
+.bottom {
+    background-color: #eceef1;
 }
 
 #phonenum{
-    font-size: .5em;
+    font-size: .7em;
+    margin-top: 1px;
 }

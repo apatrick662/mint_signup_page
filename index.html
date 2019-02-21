@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <div id="header">
+        <div class="header">
             <p>Already have an account?</p>
             <a href="#">I forgot my User ID or Password</a>
             <button><img src="./img/lock-icon.png">Sign In</button>
@@ -15,6 +15,11 @@
                 <img src="./img/logo.png">
             </div>
             <div class="signin">
+                <h1>One Account</h1>
+                <h1>Everything Intuit</h1>
+
+                <p>Create an account for all of Intuit's products including Mint. <a href="#">Learn More</a></p>
+
                 <form action="signup" method="POST">
                     Email Address
                     <br>
@@ -28,14 +33,27 @@
                     Password
                     <br>
                     <input type="text" name="password">
+                    <br>
+                    <button><img src="./img/lock-icon.png">Create Account</button>
                 </form>
                 <br>
                 <p>By clicking Create Account, you agree to our
-                        License Agreement and have read and acknowledge our Privacy Statement.</p>
+                        <a href="#">License Agreement</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</p>
                 <div id="bottom">        
                     <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
                 </div>
             </div>
+            <div class="footer">
+                    <p>Mint bill pay services provided by Intuit Payments Inc. under applicable <a href="#">licenses.</a></p>
+                    <ul>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                    <p>© 2018 Intuit, Inc. All rights reserved. Intuit, Quickbooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+                    <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+            </div>
         </center>
+        
     </body>
 </html>
